@@ -1,0 +1,29 @@
+Command line:
+   proyectoTB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50013
+
+Wed Nov 27 14:27:58 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5160.79 Meg
+
+ Total Signals          : 10
+ Total Nets             : 15
+ Total Signal Drivers   : 5
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 393
+Total Line Count : 12
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5160.79 Meg
+
+Wed Nov 27 14:28:13 2019
+

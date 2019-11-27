@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/ProgramFiles/xiling/proyectoElectro1/proyecto1electro/proyectoTB_isim_beh.exe" -prj "E:/ProgramFiles/xiling/proyectoElectro1/proyecto1electro/proyectoTB_beh.prj" "work.proyectoTB" 
