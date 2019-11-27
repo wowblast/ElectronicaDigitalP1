@@ -38,7 +38,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1574879268" xil_pn:in_ck="1330033946556439458" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1574879268">
+    <transform xil_pn:end_ts="1574880837" xil_pn:in_ck="1330033946556439458" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1574880837">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CircuitoSumaResta.vhd"/>
@@ -56,13 +56,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1574879271" xil_pn:in_ck="1330033946556439458" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1574879271">
+    <transform xil_pn:end_ts="1574880840" xil_pn:in_ck="1330033946556439458" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1574880840">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CircuitoSumaResta.vhd"/>
       <outfile xil_pn:name="proyectoTB.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1574879276" xil_pn:in_ck="1330033946556439458" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7017229004643592188" xil_pn:start_ts="1574879271">
+    <transform xil_pn:end_ts="1574880845" xil_pn:in_ck="1330033946556439458" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7017229004643592188" xil_pn:start_ts="1574880840">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -72,7 +72,7 @@
       <outfile xil_pn:name="proyectoTB_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1574879276" xil_pn:in_ck="-7790437997854945222" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="9108737246804790577" xil_pn:start_ts="1574879276">
+    <transform xil_pn:end_ts="1574880845" xil_pn:in_ck="-7790437997854945222" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="9108737246804790577" xil_pn:start_ts="1574880845">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>

@@ -40,21 +40,30 @@ end CircuitoSumaResta;
 
 architecture Behavioral of CircuitoSumaResta is
 begin
-validacion:process(A,B)
+validacion:process(A,B,O)
 
 begin
-	if( A > 9  and A > 9) then
+	if( A > 9  and B > 9) then
 	Display1 <= "0000";
 	Display2 <= "00";
 
 	else
-		
-		if( (A+B) >9) then
-		Display1 <= A+B-10;
-		Display2 <= "11";
-		else
-		Display1 <= A+B;
-		Display2 <= "00";
+		if ( O = '0') then
+			if( (A+B) >9) then
+			Display1 <= A+B-10;
+			Display2 <= "11";
+			else
+			Display1 <= A+B;
+			Display2 <= "00";
+			end if;
+		elsif ( O = '1') then
+			if (B > A) then
+			Display1 <= B - A;
+			Display2 <= "01";
+			else
+			Display1 <= A - B;
+			Display2 <= "00";
+			end if;
 		end if;
 		
 	

@@ -79,10 +79,16 @@ BEGIN
    stim_proc: process
    begin		
       -- hold reset state for 100 ns.
-		A <= "1111"; B <= "1111"; O<='0';
-      wait for 100 ns;	
-		A <= "0001"; B <= "0001"; O<='0';
-      wait for 100 ns;	
+		A <= "0111"; B <= "0001"; O<='1';
+      wait for 10 ns;	
+		A <= "0011"; B <= "0111"; O<='0';		
+      wait for 10 ns;
+		A <= "0011"; B <= "0111"; O<='1';		
+      wait for 10 ns;
+		A <= "0001"; B <= "0001"; O<='0';		
+      wait for 10 ns;
+		A <= "0001"; B <= "0001"; O<='1';		
+      wait for 10 ns;		
 
 
 

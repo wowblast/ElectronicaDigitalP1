@@ -16,5 +16,5 @@ Compiling architecture behavior of entity proyectotb
 Time Resolution for simulation is 1ps.
 Compiled 7 VHDL Units
 Built simulation executable E:/ProgramFiles/xiling/proyectoElectro1/proyecto1electro/proyectoTB_isim_beh.exe
-Fuse Memory Usage: 33592 KB
-Fuse CPU Usage: 577 ms
+Fuse Memory Usage: 34248 KB
+Fuse CPU Usage: 671 ms
